@@ -1,10 +1,11 @@
 
-import Basic from  './examples/basic';
+//import Basic from  './examples/basic';
+import Checkbox from  './examples/checkbox';
 
 function App() {
   return (
     <div className="App">
-      <Basic />
+      <Checkbox />
     </div>
   );
 }
