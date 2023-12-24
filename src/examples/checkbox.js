@@ -4,7 +4,7 @@ import { Formik, Field, Form } from 'formik';
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-export default () => (
+ const Basic = () => (
   <div>
     <h1>Sign Up</h1>
     <Formik
@@ -57,3 +57,4 @@ export default () => (
   </div>
 );
 
+export default Basic;
